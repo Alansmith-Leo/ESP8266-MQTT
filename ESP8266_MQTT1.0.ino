@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char *ssid = "ALAN-DT"; // Enter your WiFi name
-const char *password = "123123321a";  // Enter WiFi password
+const char *ssid = "*******"; // Enter your WiFi name
+const char *password = "********";  // Enter WiFi password
 const char *mqtt_broker = "broker.emqx.io";
 const int mqtt_port = 1883;
-const char* mqtt_pub_topic="laizi";
+const char* mqtt_pub_topic="******";
 float a,b,c;
 
 WiFiClient espClient;
